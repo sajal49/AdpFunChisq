@@ -5,15 +5,15 @@ The source code can be used to repeat all pre-processing steps and evaluations p
 Alternatively, all pre-processed data and some precomputed result libraries (.RData/.RDS) are available to download at http://www.cs.nmsu.edu/~joemsong/AFC/Supplementary_Code.zip to skip the pre-processing steps and only run evaluations. Additionally, We also provide means to only regenerate plots presented in the manuscript and supplementary without re-running all evaluations.
 
 1. To repeat all experiments and plots for Abalone, in the manuscript: 
-   * source Abalone_Eval.R
-   * Run AbaloneEval()
+    * source Abalone_Eval.R
+    * Run AbaloneEval()
 2. To only regenerate all plots for Abalone, in the main manuscript:
-  (a) source Gen_AbalonePlots.R
+    * source Gen_AbalonePlots.R
 3. To repeat all experiments and plots for MPAL, in the manuscript:
-  (a) Download scADT-All-Hematopoiesis-MPAL-191120.rds and scRNA-All-Hematopoiesis-MPAL-191120.rds from https://github.com/GreenleafLab/MPAL-Single-Cell-2019/ and place them in Data/MPAL/.
-  (b) Download PathwayCommons11.All.hgnc.sif from https://www.pathwaycommons.org/archives/PC2/v11/ and place it in Data/MPAL/.
-  (c) source scMPAL_Eval_applc.R
-  (d) Run MPAL_study()
+    * Download scADT-All-Hematopoiesis-MPAL-191120.rds and scRNA-All-Hematopoiesis-MPAL-191120.rds from https://github.com/GreenleafLab/MPAL-Single-Cell-2019/ and place them in Data/MPAL/.
+    * Download PathwayCommons11.All.hgnc.sif from https://www.pathwaycommons.org/archives/PC2/v11/ and place it in Data/MPAL/.
+    * source scMPAL_Eval_applc.R
+    * Run MPAL_study()
 4. To only regenerate all plots for MPAL, in the main manuscript: 
   (a) source Gen_scMPALPlots.R
 5. To repeat all experiments and plots for perturbed yeast microarray, in the manuscript:
