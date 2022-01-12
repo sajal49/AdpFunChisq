@@ -1,3 +1,5 @@
-The Abalone dataset can be obtained from: https://archive.ics.uci.edu/ml/datasets/Abalone
+"A Quantitative Comparison of Dystal and Backpropagation", Clark.et.al 1996, Australian Conference on Neural Networks (ACNN'96).
 
-Download abalone.data and place it in Data/Abalone/ directory.
+The code requires the following files:
+
+1. The Abalone dataset (abalone.data) should be obtained from: https://archive.ics.uci.edu/ml/datasets/Abalone and placed it in Data/Abalone/ directory.
