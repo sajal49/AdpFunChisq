@@ -15,38 +15,38 @@ Alternatively, all pre-processed data and some precomputed result libraries (.RD
     * source scMPAL_Eval_applc.R
     * Run MPAL_study()
 4. To only regenerate all plots for MPAL, in the main manuscript: 
-   * source Gen_scMPALPlots.R
+    * source Gen_scMPALPlots.R
 5. To repeat all experiments and plots for perturbed yeast microarray, in the manuscript:
-   * Download idea_tall_expression_data.tsv from https://idea.research.calicolabs.com/data and place it in Data/Yeast/.
-   * source micrYeast_Eval.R
-   * Run YeastEval()
+    * Download idea_tall_expression_data.tsv from https://idea.research.calicolabs.com/data and place it in Data/Yeast/.
+    * source micrYeast_Eval.R
+    * Run YeastEval()
 6. To only regenerate all plots for yeast, in the main manuscript:
-   * source Gen_micrYeastPlots.R
+    * source Gen_micrYeastPlots.R
 7. To repeat all experiments and plot for simulation study, in the main manuscript:
-   * source SimStudy.R 
-   * Run SimStudy()
+    * source SimStudy.R 
+    * Run SimStudy()
 8. To only regenerate all plots for simulation study, in the main manuscript: 
-   * source Gen_SimStudyPlots.R
+    * source Gen_SimStudyPlots.R
 9. To repeat the table type bias check, in the main manuscript: 
-   * source TableTypeBiasCheck.R
-   * Run TtyBiasCheck()
+    * source TableTypeBiasCheck.R
+    * Run TtyBiasCheck()
 10. To regenerate the plot for table type bias check, in the manuscript:
-   * source Gen_TableTypeBiasCheck.R
+    * source Gen_TableTypeBiasCheck.R
 11. To repeat all experiments and plots, in the supplementary:
-   * Download scADT-All-Hematopoiesis-MPAL-191120.rds and scRNA-All-Hematopoiesis-MPAL-191120.rds from https://github.com/GreenleafLab/MPAL-Single-Cell-2019/ and place them in Data/MPAL/, if not done already.
-   * Download PathwayCommons11.All.hgnc.sif from https://www.pathwaycommons.org/archives/PC2/v11/ and place it in Data/MPAL/, if not done already.
-   * Download idea_tall_expression_data.tsv from https://idea.research.calicolabs.com/data and place it in Data/Yeast/, if not done already.
-   * source SupplementaryPlots.R
-   * Run Suppl_Plots()
+    * Download scADT-All-Hematopoiesis-MPAL-191120.rds and scRNA-All-Hematopoiesis-MPAL-191120.rds from https://github.com/GreenleafLab/MPAL-Single-Cell-2019/ and place them in Data/MPAL/, if not done already.
+    * Download PathwayCommons11.All.hgnc.sif from https://www.pathwaycommons.org/archives/PC2/v11/ and place it in Data/MPAL/, if not done already.
+    * Download idea_tall_expression_data.tsv from https://idea.research.calicolabs.com/data and place it in Data/Yeast/, if not done already.
+    * source SupplementaryPlots.R
+    * Run Suppl_Plots()
 12. To only regenerate all plots for supplementary 
-   * source Gen_SupplPlots.R
+    * source Gen_SupplPlots.R
 13. Implementations and Ports:
-   * Adaptive functional chi-squared test in AdpFunChisq.R 
-   * Digital Regression in DR.R
-   * Distance Correlation in DC.R
-   * Causal Inference by Stochastic Complexity in Cisc.R 
-   * Fraction of Information in Methods.R
-   * Sub-Copula Regression in Methods.R
-   * Goodman-Kruskal Tau in Methods.R
-   * Additive Noise Model in ANM.R and GauProRegPy.py
-   * Information-Geometric Causal Inference in IGCI.R
+    * Adaptive functional chi-squared test in AdpFunChisq.R 
+    * Digital Regression in DR.R
+    * Distance Correlation in DC.R
+    * Causal Inference by Stochastic Complexity in Cisc.R 
+    * Fraction of Information in Methods.R
+    * Sub-Copula Regression in Methods.R
+    * Goodman-Kruskal Tau in Methods.R
+    * Additive Noise Model in ANM.R and GauProRegPy.py
+    * Information-Geometric Causal Inference in IGCI.R
