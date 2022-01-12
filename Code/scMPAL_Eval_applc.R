@@ -1021,9 +1021,12 @@ DiscretizationLvlCheck_ViralCarcinogen = function(){
 
 
 # Main procedure
+# Call MPAL_study() for evaluations only
+# Call MPAL_study(ttype_check=TRUE) for evaluations along with table type summary.
+# Call MPAL_study(prep_data=TRUE, ttype_check=TRUE) for pre-processing and all evaluations.
 MPAL_study = function(prep_data = FALSE, ttype_check=FALSE){
   
-  # Pre-process data
+  # Pre-process data if desired. 
   if(prep_data){
     preprocess_data(PLOT=TRUE)  
   }
