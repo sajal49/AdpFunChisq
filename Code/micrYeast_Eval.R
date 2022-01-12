@@ -517,6 +517,9 @@ Prepare_data = function(){
 }
 
 # Main procedure
+# Call YeastEval() for evaluations only
+# Call YeastEval(ttype_check=TRUE) for evaluations along with table type summary.
+# Call YeastEval(prep_data=TRUE, ttype_check=TRUE) for pre-processing and all evaluations.
 YeastEval = function(prep_data = FALSE, ttype_check=FALSE){
   
   # Prepare data
