@@ -2,4 +2,4 @@
 
 The code requires the following files:
 
-1. The Abalone dataset (abalone.data) should be obtained from: https://archive.ics.uci.edu/ml/datasets/Abalone and placed it in Data/Abalone/ directory.
+1. The Abalone dataset (abalone.data) should be obtained from: https://archive.ics.uci.edu/ml/datasets/Abalone and placed in Data/Abalone/ directory.
