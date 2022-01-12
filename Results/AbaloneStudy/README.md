@@ -1,1 +1,1 @@
-Results from the Abalone study will be placed here.
+Results from the Abalone study will be generated here.
