@@ -1,4 +1,4 @@
-# AdaptiveFunChisq
+# AdpFunChisq
 
 The source code can be used to repeat all pre-processing steps and evaluations presented in the manuscript as well as in supplementary; however, some data files are required to be download and placed in the correct directory. Please check out the README files in each Data/ directory. Some evaluations (such as those on yeast and leukemia datasets) may take multiple days to run.
 
