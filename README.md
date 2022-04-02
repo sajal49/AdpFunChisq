@@ -2,7 +2,7 @@
 
 The source code can be used to repeat all pre-processing steps and evaluations presented in the manuscript as well as in supplementary; however, some data files are required to be download and placed in the correct directory. Please check out the README files in each Data/ directory. Some evaluations (such as those on yeast and leukemia datasets) may take multiple days to run.
 
-Alternatively, all pre-processed data and some precomputed result libraries (.RData/.RDS) are available to download at http://www.cs.nmsu.edu/~joemsong/AFC/Supplementary_Code.zip to skip the pre-processing steps and only run evaluations. Additionally, We also provide means to only regenerate plots presented in the manuscript and supplementary without re-running all evaluations.
+Alternatively, all pre-processed data and some precomputed result libraries (.RData/.RDS) along with the code are available at www.doi.org/10.24433/CO.2907738.v1. Additionally, We also provide means to only regenerate plots presented in the manuscript and supplementary without re-running all evaluations.
 
 1. To repeat all experiments and plots for Abalone, in the manuscript: 
     * source Abalone_Eval.R
